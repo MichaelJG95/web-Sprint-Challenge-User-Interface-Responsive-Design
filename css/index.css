@@ -72,6 +72,10 @@ a {
     color: black;
 }
 
+img{
+    width: 100%;
+}
+
 section, footer{
     padding:4% 0;
 }
@@ -208,3 +212,62 @@ footer a{
 }
 
 /*Responsive Styles*/
+
+@media(max-width:500px){
+    nav{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .logo{
+        margin-top: 6%;
+        margin-bottom: 4%;
+    }
+    .links{
+        width: 90%;
+        margin: 0;
+    }
+    .banner-img{
+        width: 95%;
+    }
+
+    .container .text-container{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin: 5% 0;
+    }
+
+    .top-content{
+        width: 100%;
+        display: block;
+        /*flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;*/
+        margin: 0;
+        padding: 0;
+    }
+
+    .middle-content .boxes .box {
+        /*background: black;*/
+        width: 48%;
+        height: 25vh;
+        
+    }
+
+    .bottom-content{
+        display: block;
+    }
+     h2{
+        text-align: center;
+    }
+    /*About page*/
+    img{
+        width: 100%;
+    }
+
+    .head{
+        margin-bottom: 6%;
+        padding-bottom: 6%;
+    }
+}
